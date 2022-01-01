@@ -30,7 +30,11 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [],
+        children: [
+          Expanded(
+            child: Image.asset('assets/wahe-guru-simran-cover.jpg'),
+          ),
+        ],
       ),
     );
   }
