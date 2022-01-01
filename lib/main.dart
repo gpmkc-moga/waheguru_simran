@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const WaheguruSimranApp());
@@ -10,6 +11,10 @@ class WaheguruSimranApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
@@ -28,13 +33,21 @@ class WaheguruSimranHomePage extends StatefulWidget {
 class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: [
-          Expanded(
-            child: Image.asset('assets/wahe-guru-simran-cover.jpg'),
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+          margin: EdgeInsets.symmetric(
+            vertical: 24.0,
+            horizontal: 16.0,
           ),
-        ],
+          child: Column(
+            children: [
+              Expanded(
+                child: Image.asset('assets/wahe-guru-simran-cover.jpg'),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
