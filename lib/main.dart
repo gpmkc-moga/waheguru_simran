@@ -42,6 +42,9 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
               Expanded(
                 child: Image.asset('assets/wahe-guru-simran-cover.jpg'),
               ),
+              SizedBox(
+                height: 16.0,
+              ),
             ],
           ),
         ),
