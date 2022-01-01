@@ -11,7 +11,6 @@ Future<void> main() async {
     androidNotificationChannelId: 'com.wahegurulive.waheguru_simran.channel.audio',
     androidNotificationChannelName: 'Waheguru Simran Audio playback',
     androidNotificationOngoing: true,
-    androidStopForegroundOnPause: false,
   );
   runApp(const WaheguruSimranApp());
 }
