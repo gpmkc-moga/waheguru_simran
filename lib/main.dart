@@ -36,10 +36,7 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
     return SafeArea(
       child: Scaffold(
         body: Container(
-          margin: EdgeInsets.symmetric(
-            vertical: 24.0,
-            horizontal: 16.0,
-          ),
+          margin: EdgeInsets.all(24.0),
           child: Column(
             children: [
               Expanded(
