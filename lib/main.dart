@@ -45,7 +45,7 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
   final _playlist = ConcatenatingAudioSource(
     children: [
       AudioSource.uri(
-        Uri.parse("asset:///asset/waheguru-simran-loop.mp3"),
+        Uri.parse("asset:///assets/waheguru-simran-loop.mp3"),
         tag: MediaItem(
           id: '${_nextMediaId++}',
           album: "Simran | Gurdwara Prabh Milne Ka Chao, Moga",
