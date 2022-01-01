@@ -121,9 +121,9 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
                     );
                   } else if (processingState != ProcessingState.completed) {
                     return IconButton(
-                      icon: Icon(Icons.pause),
+                      icon: Icon(Icons.stop),
                       iconSize: SIZE_PLAYER_BUTTON,
-                      onPressed: _player.pause,
+                      onPressed: _player.stop,
                     );
                   } else {
                     return IconButton(
