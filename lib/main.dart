@@ -26,7 +26,6 @@ class WaheguruSimranApp extends StatelessWidget {
       DeviceOrientation.portraitDown,
     ]);
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData.dark(),
       home: const WaheguruSimranHomePage(),
     );
@@ -72,6 +71,7 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
       print('A stream error occurred: $e');
     });
     try {
+      await _player.setLoopMode(LoopMode.one); // loop current item
       await _player.setAudioSource(_playlist);
     } catch (e, stackTrace) {
       // Catch load errors: 404, invalid url ...
