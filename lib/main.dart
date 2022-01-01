@@ -50,7 +50,7 @@ class _WaheguruSimranHomePageState extends State<WaheguruSimranHomePage> {
           id: '${_nextMediaId++}',
           album: "Simran | Gurdwara Prabh Milne Ka Chao, Moga",
           title: "Wahe-Guru Simran",
-          artUri: Uri.parse("asset:///asset/waheguru-simran-cover.jpg"),
+          artUri: Uri.parse("asset:///assets/waheguru-simran-cover.jpg"),
         ),
       ),
     ],
