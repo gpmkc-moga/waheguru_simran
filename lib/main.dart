@@ -7,7 +7,7 @@ import 'package:just_audio/just_audio.dart';
 const double SIZE_PLAYER_BUTTON = 80.0;
 Future<void> main() async {
   await JustAudioBackground.init(
-    androidNotificationIcon: 'drawable/ic_stat_Waheguru',
+    androidNotificationIcon: 'drawable/ic_stat_waheguru',
     androidNotificationChannelId: 'com.wahegurulive.waheguru_simran.channel.audio',
     androidNotificationChannelName: 'Waheguru Simran Audio playback',
     androidNotificationOngoing: true,
