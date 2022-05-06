@@ -3,7 +3,7 @@
 
 ### Waheguru Simran
 ### Bhai Sahib Bhai Sewa Singh Ji Tarmala
-#### Gurdwara Prabh Miln,e Ka Chao, Moga
+#### Gurdwara Prabh Milne Ka Chao, Moga
 <img src="https://user-images.githubusercontent.com/5167015/147851759-eccaff16-cb5d-4a38-b668-331985701950.png" width="200">
 
 Gurbani Guru guides us to focus our attention in our voice while doing Simran
